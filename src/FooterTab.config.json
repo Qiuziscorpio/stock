@@ -1,0 +1,26 @@
+[
+  {
+    "list": [
+      {
+        "path": "/B",
+        "name": "B",
+        "icon": "B"
+      },
+      {
+          "path": "/C",
+          "name": "C",
+          "icon": "C"
+      },      
+      {
+        "path": "/D",
+        "name": "D",
+        "icon": "D"
+      },
+      {
+          "path": "/Hello",
+          "name": "hello",
+          "icon": "hello"
+        }      
+    ]
+  }
+]
