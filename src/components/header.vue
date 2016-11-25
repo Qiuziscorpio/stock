@@ -44,13 +44,10 @@
 <script>
 export default {
   name: 'header',
-
   data() {
     return {
-
     };
   },
-
   methods: {
     handleClose() {
       alert('close this page');
@@ -65,6 +62,7 @@ export default {
       @descendent main {
         margin-top: 50px;
         min-height: 120vh;
+
         > * {
           margin-bottom: 15px;
         }

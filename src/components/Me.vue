@@ -1,17 +1,16 @@
 <template>
-		<mt-tab-container-item id="container4">
-			<div class="page-part">
-				<mt-cell v-for="n in 12" :title="'我的 ' + n" />
-			</div>
-			<router-link to="/">
-				<mt-button type="danger" size="large">退出</mt-button>
-			</router-link>
-		</mt-tab-container-item>
+	<div>
+		pppppppp这个是我
+		<mt-tab-container-item id="container1">
+			wwwwwwwwwwwwwww
+			<mt-cell v-for="n in 60" :title="'餐厅 ' + n" />
+		</mt-tab-container-item>		
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'E',
+  name: 'me',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
@@ -21,7 +20,7 @@ export default {
   },
   methods: {
   },  
-  mounted () {
+  mounted () {   
   }  
 }
 </script>

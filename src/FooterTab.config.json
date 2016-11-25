@@ -20,7 +20,12 @@
           "path": "/Hello",
           "name": "hello",
           "icon": "hello"
-        }      
+        },
+        {
+            "path": "/header",
+            "name": "header",
+            "icon": "header"
+          }          
     ]
   }
 ]

@@ -3,19 +3,25 @@
 	  <router-link class="page-back" v-if="visible" :to="'/'">
 	      <i class="mintui mintui-back"></i>
 	  </router-link>
-	  <router-view></router-view>
+  	<div class="page-tabbar">
+		<div class="page-wrap">
+			<router-view></router-view>
+		</div>
+		<FooterTab></FooterTab>
+	</div>
   </div>
 </template>
 
 <script>
 import 'src/assets/font/iconfont.css';
+import FooterTab from './components/FooterTab'
 export default {
   name: 'app',
   components: {
+  	FooterTab
   },
 	computed: {
   	visible() {
-    	return ['/', '/header', '/search'].indexOf(this.$route.path) < 0;
   	}
 	}  
 }
@@ -28,6 +34,8 @@ export default {
     background-color: #fafafa;
     -webkit-overflow-scrolling: touch;
     user-select: none;
+    padding: 0;
+    margin: 0;
   }
 
   a {
@@ -47,31 +55,11 @@ export default {
       line-height: 40px;
     }
   }
-  
-  @component-namespace page {
-    @component title {
-      font-size: 20px;
-      margin: 20px auto;
-      text-align: center;
-      display: block;
-      line-height: 1;
-    }
 
-    @component header {
-      @descendent main {
-        margin-top: 50px;
-        min-height: 120vh;
-        > * {
-          margin-bottom: 15px;
-        }
-      }
-    }
-
-    @component part {
-      margin-bottom: 15px;
-    }
-  }
-
+	.page-header-main {
+	    margin-top: 50px;
+	    min-height: 120vh;
+	}
 
   .page-tabbar {
     overflow: hidden;

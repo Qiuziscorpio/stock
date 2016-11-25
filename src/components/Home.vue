@@ -1,12 +1,15 @@
 <template>
+	<div>
+		pppppppp这个是首页
 		<mt-tab-container-item id="container1">
+			wwwwwwwwwwwwwww
 			<mt-cell v-for="n in 60" :title="'餐厅 ' + n" />
-		</mt-tab-container-item>
+		</mt-tab-container-item>		
+	</div>
 </template>
-
 <script>
 export default {
-  name: 'B',
+  name: 'home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
