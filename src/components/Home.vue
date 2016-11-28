@@ -1,6 +1,6 @@
 <template>
 	<div>
-		pppppppp这个是首页
+		pppppppp这个是首页 {{$router.name}}qqqoooooooooooooooooo
 		<mt-tab-container-item id="container1">
 			wwwwwwwwwwwwwww
 			<mt-cell v-for="n in 60" :title="'餐厅 ' + n" />

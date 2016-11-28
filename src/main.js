@@ -10,6 +10,9 @@ Vue.use(Router)
 Vue.use(Resource)
 Vue.use(Mintui)
 
+//登录状态
+var line=true
+localStorage.setItem("key",line)
 
 /* eslint-disable no-new */
 const router = new Router({

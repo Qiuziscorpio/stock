@@ -14,6 +14,8 @@ import FooterTab from './components/FooterTab'
 export default {
 	name: 'index',
 	data() {
+		return{
+		}
 	}, 
 	methods: {
 	},
