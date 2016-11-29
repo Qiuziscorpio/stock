@@ -23,7 +23,10 @@ export default {
   		FooterTab
   	},	
   	mounted () {
-  	}   	
+  	},
+  	computed(){
+  	}
+  	
 };
 </script>
 

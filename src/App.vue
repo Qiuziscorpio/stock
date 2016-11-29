@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-	  <router-link class="page-back" v-if="visible" :to="'/'">
-	      <i class="mintui mintui-back"></i>
-	  </router-link>
-  	<div class="page-tabbar">
-		<div class="page-wrap">
+		  <router-link class="page-back" v-if="visible" :to="'/'">
+		      <i class="mintui mintui-back"></i>
+		  </router-link>
 			<router-view></router-view>
-		</div>
-		<FooterTab></FooterTab>
 	</div>
   </div>
 </template>

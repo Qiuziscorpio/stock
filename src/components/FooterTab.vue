@@ -36,7 +36,7 @@ export default {
   methods: {
   	tab:function(){
   		if(this.selected=="tab-container1"){
-  			this.$router.replace("home")
+  			this.$router.replace("home/index")
   			this.icon1=true
   			this.icon2=false
   			this.icon3=false
@@ -44,7 +44,7 @@ export default {
   			return
   		}
   		if(this.selected=="tab-container2"){
-  			this.$router.replace("me")
+  			this.$router.replace("home/me")
   			this.icon1=false
   			this.icon2=true
   			this.icon3=false
@@ -52,7 +52,7 @@ export default {
   			return 
   		} 
   		if(this.selected=="tab-container3"){
-  			this.$router.replace("home")
+  			this.$router.replace("home/index")
   			this.icon1=false
   			this.icon2=false
   			this.icon3=true
