@@ -9,18 +9,20 @@ export default [
       children: [
         {
           path: '',
-          component: me
+          component: me,
+          name:"me"
         },      
         {
           path: 'index',
-          component: home
+          component: home,
+          name:"index"
         },
         {
           path: 'me',
-          component: me
+          component: me,
+          name:"me"
         }
       ]
     } ,   
-    { path: 'home', component:home, name:"index"},
-    { path: 'Me', component:me, name:"me"},
+    { path: 'Me', component:me, name:"me2"},
 ]
