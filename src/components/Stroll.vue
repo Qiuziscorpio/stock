@@ -1,6 +1,6 @@
 <template>
 	<div>
-		pppppppp这个是首页 {{$router.name}}qqqoooooooooooooooooo
+		pppppppp这个是首lalllalalala页 {{$router.name}}qqqoooooooooooooooooo
 		<mt-tab-container-item id="container1">
 			wwwwwwwwwwwwwww
 			<mt-cell v-for="n in 60" :title="'餐厅 ' + n" />
@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: 'home',
+  name: 'stroll',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',

@@ -36,7 +36,7 @@ export default {
   methods: {
   	tab:function(){
   		if(this.selected=="tab-container1"){
-  			this.$router.push("/home/index")
+  			this.$router.push({name:"stroll"})
   			this.icon1=true
   			this.icon2=false
   			this.icon3=false
@@ -44,7 +44,7 @@ export default {
   			return
   		}
   		if(this.selected=="tab-container2"){
-  			this.$router.push("/home/me")
+  			this.$router.push({name:"brand"})
   			this.icon1=false
   			this.icon2=true
   			this.icon3=false
@@ -52,7 +52,7 @@ export default {
   			return 
   		} 
   		if(this.selected=="tab-container3"){
-  			this.$router.push("/home/index")
+  			this.$router.push({name:"stroll"})
   			this.icon1=false
   			this.icon2=false
   			this.icon3=true
@@ -61,7 +61,7 @@ export default {
   		}
   		if(this.selected=="tab-container4"){
   			if(localStorage.getItem("key")=="true"){
-	  			this.$router.push("jj")
+	  			this.$router.push({name:"login"})
 	  			this.icon1=false
 	  			this.icon2=false
 	  			this.icon3=false

@@ -1,6 +1,7 @@
 <template>
 	<div>
 		pppppppp这个是我
+		<router-link :to="{ name: 'details'}">details</router-link>
 		<mt-tab-container-item id="container1">
 			wwwwwwwwwwwwwww
 			<mt-cell v-for="n in 60" :title="'餐厅 ' + n" />
@@ -10,7 +11,7 @@
 
 <script>
 export default {
-  name: 'me',
+  name: 'brand',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
