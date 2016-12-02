@@ -10,63 +10,21 @@
 
 <script>
 import 'src/assets/font/iconfont.css';
+import 'src/assets/icon/iconfont.css'
+import 'src/assets/communal.css';
+
 import FooterTab from './components/FooterTab'
 export default {
   name: 'app',
-  components: {
-  	FooterTab
-  },
+	components: {
+		FooterTab
+	},
 	computed: {
-  	visible() {
-  	}
-	}  
+		visible() {}
+	}
 }
 </script>
 
 <style>
-  @reset-global mobile;
 
-  html, body {
-    background-color: #fafafa;
-    -webkit-overflow-scrolling: touch;
-    user-select: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  a {
-    color: inherit;
-  }
-
-  .page-back {
-		display: inline-block;
-    top: 12px;
-    left: 10px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    i {
-      font-size: 24px;
-      line-height: 40px;
-    }
-  }
-
-	.page-header-main {
-	    margin-top: 50px;
-	    min-height: 120vh;
-	}
-
-  .page-tabbar {
-    overflow: hidden;
-    height: 100vh;
-  }
-  
-  .page-wrap {
-    overflow: auto;
-    height: 100%;
-    padding-bottom: 100px;
-  }  
-  
-  
 </style>

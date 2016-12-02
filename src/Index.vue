@@ -1,5 +1,5 @@
 <template>
-  	<div class="page-tabbar">
+	<div class="page-tabbar">
 		<div class="page-wrap">
 			<router-view></router-view>
 		</div>
@@ -8,31 +8,24 @@
 </template>
 
 <script>
+	import FooterTab from './components/FooterTab'
 
-import FooterTab from './components/FooterTab'
+	export default {
+		name: 'index',
+		data() {
+			return {}
+		},
+		methods: {},
+		components: {
+			FooterTab
+		},
+		mounted() {},
+		computed() {}
 
-export default {
-	name: 'index',
-	data() {
-		return{
-		}
-	}, 
-	methods: {
-	},
-  	components: {
-  		FooterTab
-  	},	
-  	mounted () {
-  	},
-  	computed(){
-  	}
-  	
-};
+	};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style >
 
-  
-  
 </style>

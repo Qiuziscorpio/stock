@@ -1,0 +1,63 @@
+  @reset-global mobile;
+  p,
+  div,
+  h1,h2,h3,h4,h5,h6,
+  img,
+  span
+  {
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  html,
+  body {
+  	color: #555555;
+  	background-color: #fafafa;
+  	-webkit-overflow-scrolling: touch;
+  	user-select: none;
+  	padding: 0;
+  	margin: 0;
+  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  }
+  
+  a {
+  	color: inherit;
+  }
+  
+  .page-back {
+  	display: inline-block;
+  	top: 12px;
+  	left: 10px;
+  	position: absolute;
+  	width: 40px;
+  	height: 40px;
+  	text-align: center;
+  	i {
+  		font-size: 24px;
+  		line-height: 40px;
+  	}
+  }
+  
+  .page-header-main {
+  	margin-top: 40px;
+  	min-height: 120vh;
+  }
+  
+  .page-tabbar {
+  	overflow: hidden;
+  	height: 100vh;
+  }
+  
+  .page-wrap {
+  	overflow: auto;
+  	height: 100%;
+  	padding-bottom: 100px;
+  }
+  
+  header.mint-header {
+  	background-color: #f05e49;
+  }
+  header.mint-header i{
+  	font-size: 26px;
+  }
