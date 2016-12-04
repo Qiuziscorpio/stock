@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import imglist from '../../assets/img/browse/banner2.jpg'
+import imglist from '../../assets/img/browse/banner.jpg'
 export default {
   name: 'sliding',
   data () {
@@ -46,9 +46,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>  
-	.choiceness img{
-		max-width: 100%;
-		width: 100%;
+
+	
+	.choiceness{
+		background: #fff;
 	}
 	.choiceness .choiceness-head{
 		display: flex;
@@ -61,7 +62,7 @@ export default {
 		flex: 1;
 	}
  	.choiceness-head .tit{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
  	.choiceness-head .more{
  		text-align: right;
@@ -81,6 +82,10 @@ export default {
 		width: 8.5rem;
 		height:6.5rem;
 		background: #000;
+		overflow: hidden;
+	}
+	.choiceness-item .item-list .item-img img{
+		height: 100%;
 	}
  	.choiceness-item .item-list .item-tit{
  		text-align: center;

@@ -3,6 +3,7 @@ import stroll from '../components/Stroll'
 import brand from '../components/Brand'
 import login from '../components/Login'
 import details from '../components/Details'
+import me from '../components/Me'
 import index from '../index'
 
 export default [
@@ -27,11 +28,16 @@ export default [
           path: 'brand',
           component: brand,
           name:"brand"
-        }
+        },
+        //我
+        {
+          path: 'me',
+          component: me,
+          name:"me"
+        }        
       ]
     } ,  	
 	//登录
 	{path: '/login', component: login, name:"login"},
-	//详情页
 	{path: '/details', component: details, name:"details"}
 ]

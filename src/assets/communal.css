@@ -1,10 +1,14 @@
   @reset-global mobile;
   p,
   div,
-  h1,h2,h3,h4,h5,h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
   img,
-  span
-  {
+  span {
   	margin: 0;
   	padding: 0;
   }
@@ -18,11 +22,11 @@
   	padding: 0;
   	margin: 0;
   	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-
   }
   
   a {
   	color: inherit;
+  	text-decoration: none;
   }
   
   .page-back {
@@ -40,8 +44,9 @@
   }
   
   .page-header-main {
-  	margin-top: 40px;
+  	margin-top: 50px;
   	min-height: 120vh;
+  	margin-bottom: 55px;
   }
   
   .page-tabbar {
@@ -56,8 +61,36 @@
   }
   
   header.mint-header {
+  	height:50px;
   	background-color: #f05e49;
   }
-  header.mint-header i{
+  
+  header.mint-header i {
   	font-size: 26px;
+  }
+  
+  div.page-wrap {
+  	background-color: #eeeeee;
+  }
+  
+  div.mint-tabbar {
+  	background-image: none;
+  	background-color: #eeeeee;
+  }
+  
+  div.mint-tabbar> .mint-tab-item.is-selected {
+  	background: none;
+  	color: #f0624d;
+  }
+  
+  div.mint-navbar .mint-tab-item{
+  	padding: 0.75rem;
+  	color: #282828;
+  }
+  div.mint-navbar .mint-tab-item .mint-tab-item-label{
+  	font-size: 1rem;
+  }
+  div.mint-navbar .mint-tab-item.is-selected{
+  	border-bottom: 0.2rem solid #f05e49;
+  	color: #282828;
   }

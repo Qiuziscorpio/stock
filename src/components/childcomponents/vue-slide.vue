@@ -56,6 +56,7 @@ export default {
           this.slide.init.tracking = false
           return
         } else {
+       
           this.slide.init.tracking = true
           this.slide.init.start.t = new Date().getTime()
           this.slide.init.start.x = e.targetTouches[0].clientX
@@ -75,7 +76,6 @@ export default {
           this.slide.init.end.x = e.targetTouches[0].clientX
           this.slide.init.end.y = e.targetTouches[0].clientY
         } else {
-          console.log('ppp')
           e.preventDefault()
           this.slide.init.end.x = e.clientX
           this.slide.init.end.y = e.clientY
@@ -134,7 +134,6 @@ export default {
         }
       }
       for (let page in this.pages) {
-        console.log(page.current)
         page.current = page.current - step * 100
         this.styleCompute(page)
       }
@@ -149,7 +148,8 @@ export default {
       this.styleCompute(obj)
     },
     styleCompute (obj) {
-      obj.style['transform'] = `translateX(${obj.origin + obj.current}%)`
+    	console.log(obj.style)
+     // obj.style['transform'] = `translateX(${obj.origin + obj.current}%)`
     }
   }
 }
@@ -159,7 +159,7 @@ export default {
 <style scoped>
 .slider {
     position: relative;
-    height: 12.6rem;
+    height: 8rem;
     top: 0;
     left: 0;
     color: #000;
