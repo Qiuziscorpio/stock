@@ -7,10 +7,10 @@
 			</div>
 			<div class="head－content">
 				<div class="img">
-					<img src="../assets/img/browse/banner.jpg" />
+					<img src="../assets/img/me/portrait.png" />
 				</div>
 				<div class="name">
-						秋子 <i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+						秋子先生 <i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
 				</div>
 			</div>
 		</div>
