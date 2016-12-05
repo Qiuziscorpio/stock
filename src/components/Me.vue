@@ -3,24 +3,24 @@
 		<!--头部-->
 		<div class="head">
 			<div class="message">
-				<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+				<i class="icon iconfont icon-appyoujian"></i>
 			</div>
 			<div class="head－content">
 				<div class="img">
 					<img src="../assets/img/me/portrait.png" />
 				</div>
 				<div class="name">
-						秋子先生 <i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+						秋子先生  <i class="icon iconfont icon-nvsheng"></i>
 				</div>
 			</div>
 		</div>
 		<!--关注 收藏-->
 		<div class="focus－collection">
 			<div class="focus">
-				<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> 我的关注
+				<i class="icon iconfont icon-shouyeaixinkongxin"></i> 我的关注
 			</div>
 			<div class="collection">
-				<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> 我的收藏
+				<i class="icon iconfont icon-xingxing1"></i> 我的收藏
 			</div>
 		</div>
 		<div class="label-mian">
@@ -31,60 +31,60 @@
 		<div class="panel">
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-bell"></i>
 					我的活动
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
-					我的优惠
+					 <i class="icon iconfont icon-59"></i>
+					我的积分
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-liwusolid"></i>
 					优惠／红包
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>				
 		</div>
 		<div class="panel">
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
-					我的活动
+					<i class="icon iconfont icon-shezhi"></i>
+					设置
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>		
 		</div>
 		<div class="panel">
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-gaoxiao"></i>
 					给个好拼
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>
 			<div class="panel－list">
 				<div class="list-left-tit">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
-					客服帮助 400-900-900
+					<i class="icon iconfont "></i>
+					&emsp;客服帮助 400-900-900
 				</div>
 				<div class="list-right-icon">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-xiangyou"></i>
 				</div>
 			</div>
 		</div>

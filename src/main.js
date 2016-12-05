@@ -11,7 +11,7 @@ Vue.use(Resource)
 Vue.use(Mintui)
 
 //登录状态
-var line=true
+var line=false
 localStorage.setItem("key",line)
 
 /* eslint-disable no-new */

@@ -23,20 +23,20 @@
 			<!--专区-->
 			<div class="zone">
 				<div class="zone-list">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-meinv"></i>
 					<p class="tit">森女专区</p>
 				</div>
 				<div class="zone-list">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-nan"></i>
 					<p class="tit">型男专区</p>
 				</div>
 				<div class="zone-list">
-					<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+					<i class="icon iconfont icon-muyingqinzi"></i>
 					<p class="tit">母婴专区</p>
 				</div>
 				<div class="zone-list">
 					<router-link :to="{ name: 'details'}" >
-						<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+						<i class="icon iconfont icon-gengduo"></i>
 						<p class="tit">更多专区</p>
 					</router-link>					
 				</div>				

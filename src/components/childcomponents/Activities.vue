@@ -21,17 +21,17 @@
 										{{data.tit}}
 									</div>
 									<div class="collection">
-										<i class="icon iconfont icon-yikeapp4tubiaogengduo" v-on:click="collection"></i>
-										<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+										<i class="icon iconfont icon-share" v-on:click="collection"></i>
+										 <i class="icon iconfont icon-xingxing1"></i>
 									</div>
 								</div>
 								<div class="subtit">
-									{{data.subtit}}
+									<i class="icon iconfont icon-dazhe"></i> {{data.subtit}}
 								</div>
 								<div class="state">
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.browse}}</span>
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.address}}</span>
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.distance}}</span>
+									<span><i class="icon iconfont icon-tubiao"></i> {{data.browse}}</span>	
+									<span><i class="icon iconfont icon-loudong"></i>{{data.address}}</span>	
+									<span><i class="icon iconfont icon-dizhi"></i>{{data.distance}}</span>	
 								</div>							
 							</div>
 						</div>
@@ -52,17 +52,17 @@
 										{{data.tit}}
 									</div>
 									<div class="collection">
-										<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
-										<i class="icon iconfont icon-yikeapp4tubiaogengduo"></i>
+										<i class="icon iconfont icon-share" v-on:click="collection"></i>
+										 <i class="icon iconfont icon-xingxing1"></i>
 									</div>
 								</div>
 								<div class="subtit">
-									{{data.subtit}}
+									<i class="icon iconfont icon-dazhe"></i>	{{data.subtit}}
 								</div>
 								<div class="state">
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.browse}}</span>
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.address}}</span>
-									<span><i class="icon iconfont icon-yikeapp4tubiaogengduo"></i> {{data.distance}}</span>
+									<span><i class="icon iconfont icon-tubiao"></i> {{data.browse}}</span>	
+									<span><i class="icon iconfont icon-loudong"></i>{{data.address}}</span>	
+									<span><i class="icon iconfont icon-dizhi"></i>{{data.distance}}</span>	
 								</div>							
 							</div>
 						</div>

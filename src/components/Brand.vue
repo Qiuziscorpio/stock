@@ -7,7 +7,7 @@
 		<div class="brand-list" v-for="data in branddata">
 			<img  v-bind:src="data.img" class="img-list" />
 			<span class="collection">
-				<i class="icon iconfont icon-yikeapp4tubiaogengduo" v-bind:class="{ 'selected': data.state }"></i>
+				<i class="icon iconfont icon-aixin" v-bind:class="{ 'selected': data.state }"></i>
 				{{data.num}}
 			</span>
 		</div>
