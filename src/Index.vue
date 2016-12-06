@@ -15,12 +15,12 @@
 		data() {
 			return {}
 		},
-		methods: {},
 		components: {
 			FooterTab
 		},
-		mounted() {},
-		computed() {}
+		mounted() {
+		},
+		methods: {}
 
 	};
 </script>

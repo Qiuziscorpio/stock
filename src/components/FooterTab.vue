@@ -32,13 +32,15 @@ export default {
     	icon1:true,
     	icon2:false,
     	icon3:false,
-    	icon4:false
+    	icon4:false,
     }
   },
   components: {
   },
   methods: {
   	tab:function(){
+  		
+  		//console.log( this.$route.name)
   		if(this.selected=="tab-container1"){
   			this.$router.push({name:"stroll"})
   			this.icon1=true
@@ -56,7 +58,7 @@ export default {
   			return 
   		} 
   		if(this.selected=="tab-container3"){
-			this.$router.push({name:"login"})
+			this.$router.push({name:"login",params:{back:"stroll"}})
   			this.icon1=false
   			this.icon2=false
   			this.icon3=false
@@ -74,7 +76,6 @@ export default {
   	}
   },  
   mounted () {
-  	console.log(this.$router)
   }  
 }
 </script>

@@ -1,7 +1,8 @@
 <template>
 	<div>
+		<popup></popup>
 		<mt-header fixed title="">
-			<router-link :to="{ name: 'brand'}" slot="left">
+			<router-link :to="{ name: routeback}" slot="left">
 				<mt-button icon="back">返回</mt-button>
 			</router-link>
 		</mt-header>
@@ -14,17 +15,18 @@
 					<div class="login-input">
 						<div class="input-list">
 							<i class=" icon iconfont icon-shouji1"></i>
-							<input placeholder="输入手机号" />
+							<input placeholder="输入手机号" number="true" type="number"   v-model="phone" />
 						</div>
 						<div class="input-list get">
 							<i class=" icon iconfont icon-shouji1"></i>
-							<input placeholder="输入验证码" />
-							<span class="getbtn">
-								获取验证码
+							<input placeholder="输入验证码" v-model="verify"/>
+							<span class="getbtn" v-on:click="getVerify">
+								<label v-if="isverify">获取验证码</label>	
+								<label v-else>正获取中...</label>	
 							</span>
 						</div>
 					</div>
-					<button class="login-btn">
+					<button class="login-btn" v-on:click="loginBtn">
 						登录
 					</button>
 					<div class="third">
@@ -52,16 +54,34 @@
 </template>
 
 <script>
+import popup from "components/childcomponents/Popup.vue"
 	export default {
 		name: 'login',
 		data() {
 			return {
-				msg: 'Welcome to Your Vue.js App',
+				phone:"10086",
+				verify:"006",
+				isverify:true,
+				routeback:""
 			}
 		},
-		components: {},
-		methods: {},
-		mounted() {}
+		methods: {
+			//获取验证码
+			getVerify:function() {
+				this.isverify=false
+			},
+			//登陆
+			loginBtn:function() {
+				this.$root.$emit('popup', '请填写手机号码')
+			}
+		},
+		mounted() {
+			//获取传过来的返回地址
+			this.routeback= this.$route.params.back
+		},
+		components: {
+			popup
+		}
 	}
 </script>
 

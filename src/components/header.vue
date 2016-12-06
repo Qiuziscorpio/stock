@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style>
   @component-namespace page {
     @component header {
       @descendent main {
