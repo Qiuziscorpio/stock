@@ -94,3 +94,6 @@
   	border-bottom: 0.2rem solid #f05e49;
   	color: #282828;
   }
+  div.mint-popup-top{
+  	z-index: 9999;;
+  }

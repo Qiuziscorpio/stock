@@ -72,7 +72,19 @@ import popup from "components/childcomponents/Popup.vue"
 			},
 			//登陆
 			loginBtn:function() {
-				this.$root.$emit('popup', '请填写手机号码')
+				let re = /^1\d{10}$/
+				if(!re.test(this.phone)||this.phone=="" ){
+					this.$root.$emit('popup', '请填写正确的手机号码')
+					return
+				}	
+				if(this.verify==""){
+					this.$root.$emit('popup', '请填写验证码')
+					return
+				}				
+				this.$root.$emit('popup', '登陆成功')
+				setTimeout(() => {
+					this.$router.push({name:"stroll"})
+				}, 2000);
 			}
 		},
 		mounted() {

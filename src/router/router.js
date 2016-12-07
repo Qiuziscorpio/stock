@@ -38,6 +38,11 @@ export default [
       ]
     } ,  	
 	//登录
-	{path: '/login', component: login, name:"login"},
+	{
+		path: '/login',
+		component: login, 
+		name:"login",
+		meta: { requiresAuth: true }
+	},
 	{path: '/details', component: details, name:"details"}
 ]

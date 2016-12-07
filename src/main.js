@@ -20,6 +20,19 @@ const router = new Router({
   routes: RouterMap
 })
 
+//登陆权限
+router.beforeEach((to, from, next) => {
+	if(to.matched.some(m => m.meta.requiresAuth)){
+		if(!line){
+			next({
+        path: '/login'
+      })
+		}
+	}else{
+			console.log("ppp")
+    	next()		
+	}
+})
 
 new Vue({ // eslint-disable-line
   el: '#app',
